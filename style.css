@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.logo {
+  max-width: 100px;
+}
+.hero {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 600px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7f7fd5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.apps-list {
+  list-style-type: none;
+  padding: 20px;
+}
+.apps-list li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
